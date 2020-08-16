@@ -9,3 +9,35 @@ This is a server for https://github.com/isyarharun/simple-builder. Build using N
 3. port for the backend is 3003
 
 ```
+
+## API get form response by form id
+```
+GET form/response/:id
+
+```
+
+## API get form form id
+```
+GET form/:id
+
+```
+
+## API to save generated form
+```
+POST form/save
+
+```
+
+## API to submit generated form
+```
+POST form/submit
+
+```
+
+## TODO next
+```
+1. API to generate list of forms
+2. add validation for POST API
+3. move setting to env file
+
+```
